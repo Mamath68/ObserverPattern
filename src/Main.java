@@ -13,6 +13,13 @@ public class Main {
         notifications.setNotification(user1.getNom() + " " + "s'est abonnée à " + user2.getNom());
 
         System.out.println("Un Nouveau Message: " + user1.getNotification());
-        System.out.println("Un Nouveau Message: " + user2.getNotification());
+
+        System.out.println(" " );
+
+        notifications.remove(user1);
+        notifications.setNotification(user1.getNom() + " " + "s'est désabonnée de Vous !");
+
+        System.out.println("Une mauvaise nouvelle pour vous: " + user2.getNotification());
+
     }
 }

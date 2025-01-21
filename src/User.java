@@ -4,8 +4,8 @@ public class User implements IUserObserver {
     private String nom;
 
     @Override
-    public String recevoirNotification(String message) {
-        return this.message = message;
+    public void recevoirNotification(String message) {
+        this.message = message;
     }
 
     public String getNom() {

@@ -1,3 +1,3 @@
 public interface IUserObserver {
-        String recevoirNotification(String message);
+        void recevoirNotification(String message);
 }
